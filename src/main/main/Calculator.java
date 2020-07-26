@@ -4,6 +4,9 @@ import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * Servlet used to transfer information from JSP file
+ */
 @WebServlet(name = "Calculator")
 public class Calculator extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
